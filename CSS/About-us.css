@@ -1,0 +1,289 @@
+body{
+    
+    background-image:url('../img/CafeMenu.jpg');
+    background-blend-mode: darken;
+    
+    background-repeat: no-repeat;
+    background-position: scroll;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+
+}
+span{
+    justify-content: center;
+}
+
+header ul li{
+    list-style: none;
+}
+  a{
+    text-decoration: none;
+    color: white;
+    
+}
+header ul {
+    position: relative;
+    display: flex;
+}
+
+.HeadDiv{
+    display: block;
+   height:50px;
+   margin-left: 720px;
+
+
+} 
+
+.sec1{
+    width: 100px;
+    padding-top: 10px;
+   
+    color: whitesmoke;
+    display: flex;
+    
+    font-size: 20px;   
+}
+a:hover{
+    color: #f5a637;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.names{
+    margin-left: 20px;
+    padding:20px 20px 20px 20px;
+    text-align: center;
+}
+.card-1{
+    height: 330px;
+    width: 580px;
+    background-color: rgba(45, 40, 40, 0.4);
+    margin-top: 240px;
+    margin-left: 430px;
+}
+.line-1{
+    color: white;
+    padding: 26px 6px 6px 6px;
+    margin-left: 210px; 
+    color: white(232, 176, 220);
+    font-family:sans-serif;
+    font-size: medium;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.title{
+    color: white;
+    padding: 16px 6px 6px 6px;
+    margin-left: 190px; 
+    color: white(232, 176, 220);
+    font-family:cursive;
+    font-size: medium;
+    font-weight: bolder;
+    font-size: 30px;
+    
+}
+p{
+    color: beige;
+    margin-left: 20px;
+    font-size: 17px;
+}
+.our-menu{
+    margin-left: 230px; 
+    color: white(232, 176, 220);
+    font-family:cursive;
+    font-size: medium;
+    font-weight: bolder;
+    font-size: 30px;
+    color: white;
+}
+
+.container{
+    display: block;
+    height: 300px;
+  
+    
+}
+.cofee{
+    margin-left:170px;
+    font-size: 19px;
+    font-weight: 600;
+    margin-top: 7px;
+}
+
+.img-1{
+    margin-left: 250px;
+    flex: left;
+    margin-top: 8px;
+    height: 280px;
+    justify-content: flex-start;
+}
+
+.textbox{
+     height: 300px;
+     width: 400px;
+    float:right;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 210px;
+    margin-top: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+}
+hr{
+    width: 42px;
+    height: 5px;
+    border: #f5a637 solid;
+    margin-left:155px;
+    margin-top: 70px;
+}
+.faint-white{
+
+    width: 100%;
+    height: 300px;
+    margin-top: 115px;
+    background-color: #e1e4e6;
+  }
+  .comma{
+    padding-top:30px;
+    align-items: center;
+    font-size: large;
+    color: #f5a637;
+     color: #f5a637!important;
+    font-family: Playfair Display,serif!important;
+    font-weight: 590;
+     font-size: 5rem;
+    box-sizing: border-box;
+     text-align: center!important;
+}
+.comma-text{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 550;
+}
+.LIAM-SMITH{
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+}
+.Behind-scenes{
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 45px;
+}
+.behind-text{
+    font-family: sans-serif;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 22px;
+    font-size: 17px;
+
+}
+.contact-us-container{
+   
+    height: 500px;
+    width: 1120px;
+    margin-left: 210px;
+    margin-top: 40px;
+}
+.left-content{
+    float: left;
+    font-size: 18px;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 160px;
+    font-weight: 600;
+    
+
+}
+
+.right-pic{
+    float: right;
+    height: 420px;
+    margin-top: 60px;
+}
+.btn2{
+    height: 50px;
+    width:140px ;
+    float: left;
+    
+    background: transparent;
+    color: black;
+    font-size: 15px;
+    font-family: sans-serif;
+    border: 2px solid #f5a637;
+    margin-top: 22px;
+}
+.btn2:hover{
+    color: #f5a637;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+
+.footer{
+    height: 400px;
+    width: 100%;
+    background-color: black;
+    margin-top: 40px;
+}
+.footer{
+    display: inline-block;
+   
+}
+.footer-row-1{
+    float: left;
+    margin-left: 175px;
+    color: white;
+    margin-top: 100px;
+    width: 300px;
+    text-align: justify;
+}
+
+
+.footer-row-2{
+    float: left;
+    margin-left: 150px;
+    color: white;
+    margin-top: 100px;
+    width: 300px;
+    text-align: justify;
+}
+.icon-pic{
+    height:18px;
+    margin: 5px;
+    
+    float: left;
+    
+}
+.footer-row-3{
+    float: right;
+    margin-right: 150px;
+    color: white;
+    margin-top: 100px;
+    width: 300px;
+    
+}
+.rights{
+    color: white;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+
+
+    
+  
+
+
+
+
+
+
